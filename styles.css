@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background: #007363;
+    justify-content: space-between;
+    border-bottom: 1px solid red;
+}
+
+.navlinks {
+    margin-right: 85px;
+    margin-top: 4px;
+}
+
+.navlinks li {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    border: 1.2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.name {
+    margin-top: -7px;
+    margin-left: 105px;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.name span {
+    color: black;
+}
+
+body > div > div.navlinks > ul > li.active > a {
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.navlinks .inactive a:hover {
+    border-color: black;
+    transition: border-color 0.3s;
+}
+
+.betweenMain {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)), url(images/main_bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    border-bottom: 1px solid red;
+}
+
+.myName {
+    width: 500px;
+    text-align: left;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+
+.myName p {
+    padding-bottom: 2px;
+}
+
+.myName span {
+    color: #007363;
+}
+
+.myImage img {
+    border: 2px solid #007363;
+    margin-left: 190px;
+}
+
+.mainSection {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footerBar {
+    width: 100%;
+    height: 100px;
+    background: #007363;
+    display: flex;
+    justify-content: center;
+}
+
+.firstColumn {
+    text-align: center;
+}
+
+.firstColumn ul {
+    list-style-type: none;
+}
+
+.firstColumn li {
+    display: inline-block;
+}
+
+.firstColumn a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.firstColumn h4 {
+    padding-left: 40px;
+}
+
+body > div:nth-child(4), body > div.main > div.betweenMain, body > div.hobbies > div > div.betweenMain, body > div.contact > div.betweenMain {
+    margin-top: 100px;
+    border-top: 1px solid red;
+}
+
+.secondColumn p {
+    padding-left: 100px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+body > div.footerBar > div.firstColumn > ul > li:nth-child(1) a:hover, body > div.main > div.footerBar > div.firstColumn > ul > li:nth-child(1) a:hover,
+body > div.hobbies > div > div.footerBar > div.firstColumn > ul > li:nth-child(1) a:hover, body > div.contact > div.footerBar > div.firstColumn > ul > li:nth-child(1) a:hover{
+    color: darkslateblue;
+}
+
+body > div.footerBar > div.firstColumn > ul > li:nth-child(2) a:hover, body > div.main > div.footerBar > div.firstColumn > ul > li:nth-child(2) a:hover,
+body > div.hobbies > div > div.footerBar > div.firstColumn > ul > li:nth-child(2) a:hover, body > div.contact > div.footerBar > div.firstColumn > ul > li:nth-child(2) a:hover{
+    color: hotpink;
+}
+
+body > div.footerBar > div.firstColumn > ul > li:nth-child(3) a:hover, body > div.main > div.footerBar > div.firstColumn > ul > li:nth-child(3) a:hover,
+body > div.hobbies > div > div.footerBar > div.firstColumn > ul > li:nth-child(3) a:hover, body > div.contact > div.footerBar > div.firstColumn > ul > li:nth-child(3) a:hover{
+    color: rebeccapurple;
+}
+
+body > div.footerBar > div.firstColumn > ul > li:nth-child(4) a:hover, body > div.main > div.footerBar > div.firstColumn > ul > li:nth-child(4) a:hover,
+body > div.hobbies > div > div.footerBar > div.firstColumn > ul > li:nth-child(4) a:hover, body > div.contact > div.footerBar > div.firstColumn > ul > li:nth-child(4) a:hover{
+    color: cyan;
+}
+
+body > div.footerBar > div.firstColumn > ul > li:nth-child(5) a:hover, body > div.main > div.footerBar > div.firstColumn > ul > li:nth-child(5) a:hover,
+body > div.hobbies > div > div.footerBar > div.firstColumn > ul > li:nth-child(5) a:hover, body > div.contact > div.footerBar > div.firstColumn > ul > li:nth-child(5) a:hover{
+    color: white;
+}
+
+.main {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.fs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ss {
+    margin-top: 115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textAbout {
+    width: 50%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.textAbout2 {
+    width: 50%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.textAbout h1, .textAbout2 h1, .contactTitle {
+    text-transform: uppercase;
+}
+
+.textAbout span, .textAbout2 span {
+    color: #007363;
+}
+
+.textAbout p, .textAbout2 p {
+    width: 550px;
+    padding-left: 220px;
+    text-align: left;
+}
+
+.textAbout p a, .textAbout p a {
+    text-decoration: none;
+    color: #007363;
+}
+
+.photoAbout {
+     margin-right: 230px;
+ }
+
+.photoAbout img {
+    border: 2px solid #007363;
+}
+
+
+.photoAbout2 {
+    margin-left: 230px;
+}
+
+.photoAbout2 img {
+    border: 2px solid #007363;
+}
+
+#titlehobby {
+    text-align: center;
+}
+
+.hobbies span, .hobby_2 span, .contactTitle span, .form span {
+    color: #007363;
+}
+
+.hobbiesLobby {
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.hobby_1 {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footballPhoto img, .drivingPhoto img, .programmingPhoto img {
+    border: 2px solid #007363;
+}
+
+#liverpool {
+    color: red;
+}
+
+.footballText, .drivingText, .programmingText {
+    margin-top: 100px;
+}
+
+.hobby_2, .hobby_3 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.contactTitle {
+    text-align: center;
+}
+
+.twoSteps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form{
+    margin-top: 100px;
+    padding: 20px;
+    border: 2px solid #007363;
+}
+
+.form p {
+    font-weight: bold;
+    color: #007363;
+}
+
+body > div.contact > div.betweenMain {
+    margin-top: 234px;
+}
+
+p {
+    font-size: 17px;
+}
